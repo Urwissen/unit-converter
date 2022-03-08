@@ -14,7 +14,7 @@ input.addEventListener("input", () => {
 function renderContent(value) {
     const num = parseInt(value)
     if(isNaN(num)) {
-        return "Iam super smart, but i can only calculate numbers..."  
+        return "I am super smart, but i can only calculate numbers..."  
     }
     metersInFeet.textContent = calculate(num, "meter")
     litersInGallons.textContent = calculate(num, "liter")

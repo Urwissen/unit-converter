@@ -1,8 +1,46 @@
 body {
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .card {
-    max-width: 600px;
-    background-color: rgb(230, 230, 230);
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 5em;
+    max-width: 500px;
+    background-color: rgb(246, 246, 246);
+    color: rgba(29, 29, 29, 0.9);
+    border-radius: 1em;
+    box-shadow: 2px 1px 5px rgba(29, 29, 29, 0.4);
+}
+
+.card hr {
+    opacity: 0.2;
+}
+
+.card--header {
+    background: linear-gradient(246.26deg, #ED4683 0%, #F48E14 100%);
+    color:  rgb(246, 246, 246);
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    text-align: center;
+}
+
+.card--header p {
+    font-size: 1.25em;
+}
+
+.card--header_input {
+    max-width: 20%;
+    font-size: 1em;
+    border: none;
+    padding: 0.9em;
+    border-radius: 0.25em;
+}
+
+.wrapper {
+    margin: 0 auto;
+    padding: 1em;
+    max-width: 80%;
 }
